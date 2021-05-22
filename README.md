@@ -1,6 +1,8 @@
 # STAR_Voting
-1) Goal: simulate STAR Voting Method (Single Winner) - see details at https://www.starvoting.us,  https://star.vote and https://starview.netlify.app 
+1) Goal: simulate STAR Voting Method (Single Winner) - see details at https://www.starvoting.us,  https://star.vote and https://starview.netlify.app, https://github.com/Equal-Vote/star-core/tree/master/src
 
+Assumptions:
+- STAR Votings can use two ???: single winner and multi winner.
 2) Two program modes:
 a) Random mode: generate random - candidates, voters, ballots (plus calculate results for each file, logging, etc)
 b) Simulation mode: read TXT file and perform caluclations

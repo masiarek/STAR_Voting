@@ -10,11 +10,14 @@ b) Simulation mode: read TXT file and perform caluclations
 Both modes share the logic to read the file and calculate the results.
 
 3) File format:
+
+        
 - file name - election name
   in random mode - file name is: time stamp (e.g. YYYYMMDD_HHMMSS_NNNNN.txt)
   in simulation mode - user can use files ending with TXT or CSV extentions
-- first row - candidate names (one character: A, B, C, etc)
+- first row - candidate names (default - one character: A, B, C, etc). 
 - second (subsequent rows) - votes (comma seperated): 0 = worst, 5 = best
+Subsequent rows should contain numbers in the range 0-5 representing the score each voter gave each candidate.
 
 Calculated Results are stored in a file with the same name - with a sufix - "_results".
 

@@ -1,2 +1,2 @@
-
+https://starview.netlify.app => https://github.com/Equal-Vote/star-core/tree/master/src
 Min Max: https://github.com/andrewcmyers/civs/blob/master/cgi-bin/minimax.pm

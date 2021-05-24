@@ -1,5 +1,15 @@
 # STAR_Voting
-1) Goal: simulate STAR Voting Method (Single Winner) - see details at https://www.starvoting.us,  https://star.vote and
+1) Goal: simulate STAR Voting Method (Single Winner). 
+
+STAR voting is an electoral system for single-seat elections. The name (an allusion to star ratings) stands for "Score then Automatic Runoff", referring to the fact that this system is a combination of Score voting, to pick two finalists with the highest total scores, followed by a "virtual runoff" in which the finalist who is preferred on more ballots wins.
+
+More info at: https://www.starvoting.us
+
+Video: https://www.youtube.com/watch?v=3-mOeUXAkV0
+
+Similar projects:
+- https://star.vote
+- Java Script https://starview.netlify.app ( https://github.com/Equal-Vote/star-core/tree/master/src )
 
 Assumptions:
 - STAR Votings can select a single winner and multi winner election / contest
@@ -54,3 +64,6 @@ Positive test cases - file parsing should be sucessful:
 Expected results: input file and output files (caluclated results)
 - test01.txt, test01_results.txt
 - test02.txt, test02_results.txt
+
+7) Calculating results
+See link: 

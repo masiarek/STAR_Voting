@@ -66,4 +66,5 @@ Expected results: input file and output files (caluclated results)
 - test02.txt, test02_results.txt
 
 7) Calculating results
-See link: 
+
+See link: https://docs.google.com/document/d/1x9lwhHUYAGa1JVrKuqQ1WKHYoXUEtvySH8KC3YY1ARY/edit#

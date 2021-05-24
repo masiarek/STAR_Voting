@@ -1,7 +1,11 @@
 # STAR_Voting
-1) Goal: simulate STAR Voting Method (Single Winner). 
+1) Goal: simulate STAR Voting Method. 
 
-STAR voting is an electoral system for single-seat elections. The name (an allusion to star ratings) stands for "Score then Automatic Runoff", referring to the fact that this system is a combination of Score voting, to pick two finalists with the highest total scores, followed by a "virtual runoff" in which the finalist who is preferred on more ballots wins.
+STAR is a two-phased voting system.
+- In its first phase, voters score candidates on a scale 0 to 5, similar to rating products on Amazon.
+- The two highest-scored candidates then advance into a runoff (automatic), and whichever candidate is rated higher on more ballots wins.
+
+The name (an allusion to star ratings) stands for "Score then Automatic Runoff", referring to the fact that this system is a combination of Score voting, to pick two finalists with the highest total scores, followed by a "virtual runoff" in which the finalist who is preferred on more ballots wins.
 
 More info at: https://www.starvoting.us
 

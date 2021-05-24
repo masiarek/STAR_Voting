@@ -8,7 +8,7 @@ More info at: https://www.starvoting.us
 Video: https://www.youtube.com/watch?v=3-mOeUXAkV0
 
 Similar projects:
-- https://star.vote
+- https://star.vote ( https://github.com/msmunter/star.vote )
 - Java Script https://starview.netlify.app ( https://github.com/Equal-Vote/star-core/tree/master/src )
 
 Assumptions:

@@ -1,4 +1,7 @@
 # STAR_Voting
+Programming Specification
+See link: https://docs.google.com/document/d/1x9lwhHUYAGa1JVrKuqQ1WKHYoXUEtvySH8KC3YY1ARY/edit#
+
 1) Goal: simulate STAR Voting Method. 
 
 STAR is a two-phased voting system.
@@ -70,5 +73,3 @@ Expected results: input file and output files (caluclated results)
 - test02.txt, test02_results.txt
 
 7) Calculating results
-
-See link: https://docs.google.com/document/d/1x9lwhHUYAGa1JVrKuqQ1WKHYoXUEtvySH8KC3YY1ARY/edit#

@@ -8,7 +8,7 @@ def format_percent(count, total):
     return f'{round(100 * count / total)}%'
 
 
-# filename = sys.argv[1]
+filename = sys.argv[1]
 ''',A,B,C
 2,0,2,5
 3,5,4,3
@@ -22,7 +22,7 @@ C over                  2 2 -
 '''
 # Load CSV
 ballots = []
-with open('file.txt', 'r') as f:
+with open(filename, 'r') as f:
     rows = csv.reader(f)
     for i, row in enumerate(rows):
         if i == 0:

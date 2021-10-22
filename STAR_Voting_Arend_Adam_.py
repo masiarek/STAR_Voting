@@ -2,6 +2,8 @@ import csv
 from copy import deepcopy
 import json
 import sys
+import itertools
+from collections import defaultdict
 
 
 def format_percent(count, total):
@@ -20,6 +22,7 @@ A over                  - 3 3
 B over                  2 - 3
 C over                  2 2 -
 '''
+
 # Load CSV
 ballots = []
 with open(filename, 'r') as f:
@@ -31,6 +34,7 @@ with open(filename, 'r') as f:
             ballot_count = int(row[0])
             for _ in range(ballot_count):
                 ballots.append(row[1:])
+
 # Plurality
 counts = [0] * len(candidates)
 for ballot in ballots:
@@ -43,6 +47,7 @@ print(f"\t## Counts")
 for candidate, count in zip(candidates, counts):
     print(f'\t{candidate}: {count} ({format_percent(count, total_votes)})')
 print()
+
 # Instant Runoff
 counts = [0] * len(candidates)
 round_counts = []
@@ -105,3 +110,21 @@ print()
 print(f"\t## Sums")
 for candidate, count in zip(candidates, counts):
     print(f"\t{candidate}: {count} (avg: {round(100 * count / total_votes) / 100})")
+
+print()
+
+# Concordant Matrix
+
+## c1 prefered over c2
+pref_count = [['-' if c1 == c2 else 0 for c2 in range(len(candidates))] for c1 in range(len(candidates))]
+
+for ballot in ballots:
+    for (c1, n1), (c2, n2) in itertools.product(list(enumerate(ballot)), list(enumerate(ballot))):
+        if n1 > n2:
+            pref_count[c1][c2] = pref_count[c1][c2] + 1
+
+col_width = max([len(c) for c in candidates] + [len("Prefers")]) + 3
+print('# CONCORDANT MATRIX')
+print('\tPrefers'.ljust(col_width+len(' over')) + ''.join(c.ljust(col_width) for c in candidates))
+for i, c in enumerate(candidates):
+    print(f'\t{c} over'.ljust(col_width+len(' over')) + ''.join(str(j).ljust(col_width) for j in pref_count[i]))

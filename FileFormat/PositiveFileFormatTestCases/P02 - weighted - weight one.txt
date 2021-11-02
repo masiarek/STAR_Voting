@@ -1,0 +1,8 @@
+# ballots are parsed using comma
+# weighted scenario variant - weight = one ballot per line
+# three candidates
+Adam, Ben, C
+1: 5, 3, 1
+1: 1, 4, 5
+1: 2, 2, 3
+1: 4, 1, 1

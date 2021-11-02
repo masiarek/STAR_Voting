@@ -1,0 +1,15 @@
+# ballots are parsed using whitespace (space, tab)
+# weighted scenario variant - weight = one ballot per line
+# three candidates
+# use basic header data - max and min scores / ratings
+{
+  "election_method": 1 ("STAR Voting Method-Single-winner"),
+  "Max_rating": 5,
+  "Min_rating": 0,
+  "Number_of_seats": 1
+}
+Adam, Ben C
+1: 5, 3 0
+1: 1, 4, 5
+1: 2, 2, 3
+1: 4, 1, 1

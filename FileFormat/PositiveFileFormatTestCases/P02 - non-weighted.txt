@@ -1,5 +1,6 @@
-# single election (without election name) 
 # ballots are parsed using comma
+# non-weighted scenario variant
+# three candidates
 Adam, Ben, C
 5, 3, 1
 1, 4, 5

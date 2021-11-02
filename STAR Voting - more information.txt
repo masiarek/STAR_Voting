@@ -1,2 +1,13 @@
+STAR Voting: 
+- https://www.starvoting.us/ and https://www.equal.vote/ 
+
+
+Professional file format (Cast Vote Records CVR) here: https://docs.google.com/document/d/14OOxdYC0Tn5xgqY_ta1jrvak4QH5JPdLHkq1T31GOUM/edit?usp=sharing 
+
+
+Play Mode file format here: https://docs.google.com/document/d/1dK8sWezZxy-Ax7UXJStNy2gFk0ONVwVvi3VzqHmNbc4/edit?usp=sharing )
+ 
+
+
 https://starview.netlify.app => https://github.com/Equal-Vote/star-core/tree/master/src
-Min Max: https://github.com/andrewcmyers/civs/blob/master/cgi-bin/minimax.pm
+

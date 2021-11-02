@@ -1,5 +1,5 @@
 # ballots are parsed using comma
-# non-weighted scenario variant
+# non-weighted scenario variant (note: missing 'Number_of_Ballots:' before Candidates')
 # three candidates
 Adam, Ben, C
 5, 3, 1

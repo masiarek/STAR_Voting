@@ -1,5 +1,7 @@
 # weighted ballots (in this example 50 ballots)
-# field separator = space
-# A B C
+# field separator = SPACE
+# why SPACE characters is allowed: easy to copy from a spreadsheet into a text file
+# Note - some text editors convert TABS into SPACES automatically
+Number_of_Ballots:A B C
 20:0 2 5
 30:5 4 3

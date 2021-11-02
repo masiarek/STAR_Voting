@@ -1,5 +1,7 @@
 # weighted ballots (in this example 50 ballots)
 # field separator = tab
-#	A	B	C
+# why tab characters is allowed: easy to copy from a spreadsheet into a text file
+
+Number_of_Ballots:A	B	C
 20:0	2	5
 30:5	4	3

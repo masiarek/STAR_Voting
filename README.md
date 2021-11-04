@@ -6,4 +6,4 @@ SATR Voting - Functional Specification: https://docs.google.com/document/d/1x9lw
 More info at: https://www.starvoting.us
 Video: https://www.youtube.com/watch?v=3-mOeUXAkV0
 
-Contact: STAR_VOTING_DEVELOPMENT  (at ) gmail.com  or   masiarek@gmail.com
+Contact: STAR_VOTING_DEVELOPMENT  (at ) googlegroups.com  or   masiarek@gmail.com

@@ -1,6 +1,8 @@
-# weighted ballots (in this example 50 ballots)
+# weighted ballots (example with 50 ballots)
 # field separator = commas
-# candidates 
-Number_of_Ballots:A,B,C
+# candidates explicitly stated
+candidates = 'A, B, C'
+ballots = [
 20:0,2,5
 30:5,4,3
+]

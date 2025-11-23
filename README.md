@@ -8,17 +8,6 @@ fair and perfect electoral system is impossible,
 STAR Voting's approach makes sensible tradeoffs
 and avoids the worst pitfalls.  It's really great!
 
-This module, **starvote**, implements a STAR Voting tabulator.
-It requires Python 3.7 or newer, but also supports CPython 3.6.
-(**starvote** relies on dictionaries preserving insertion order,
-which is only guaranteed as of Python 3.7, but happened to work
-in CPython 3.6.)
-
-Features:
-
-* Supports five
-  [electoral systems](https://en.wikipedia.org/wiki/Electoral_system):
-
   - [STAR Voting](https://www.starvoting.org/star), the snazzy
     new single-winner voting system.
   - [Bloc STAR Voting](https://www.starvoting.org/multi_winner),

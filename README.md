@@ -7,5 +7,3 @@ This STAR Voting app is free to use, free to improve, and free to share with the
 
 More info at: https://www.starvoting.us
 Video: https://www.youtube.com/watch?v=3-mOeUXAkV0
-
-Contact: STAR_VOTING_DEVELOPMENT  (at ) googlegroups.com  or  volunteer (at ) equal.vote
